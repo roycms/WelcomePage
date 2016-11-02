@@ -20,6 +20,7 @@
 		B0FEE74F1DC9BC1900F518C4 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FEE74B1DC9BC1900F518C4 /* 3.png */; };
 		B0FEE7501DC9BC1900F518C4 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FEE74C1DC9BC1900F518C4 /* 4.png */; };
 		B0FEE7531DC9BC4200F518C4 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FEE7521DC9BC4200F518C4 /* CollectionViewCell.m */; };
+		B0FEE7551DC9C5F700F518C4 /* index.gif in Resources */ = {isa = PBXBuildFile; fileRef = B0FEE7541DC9C5F700F518C4 /* index.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		B0FEE74C1DC9BC1900F518C4 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		B0FEE7511DC9BC4200F518C4 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		B0FEE7521DC9BC4200F518C4 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		B0FEE7541DC9C5F700F518C4 /* index.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = index.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		B0FEE7481DC9BC1900F518C4 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				B0FEE7541DC9C5F700F518C4 /* index.gif */,
 				B0FEE7491DC9BC1900F518C4 /* 1.png */,
 				B0FEE74A1DC9BC1900F518C4 /* 2.png */,
 				B0FEE74B1DC9BC1900F518C4 /* 3.png */,
@@ -232,6 +235,7 @@
 				TargetAttributes = {
 					B0FEE7111DC9B6DD00F518C4 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8N7N7WZT8J;
 						ProvisioningStyle = Automatic;
 					};
 					B0FEE72A1DC9B6DE00F518C4 = {
@@ -276,6 +280,7 @@
 				B0FEE74D1DC9BC1900F518C4 /* 1.png in Resources */,
 				B0FEE74E1DC9BC1900F518C4 /* 2.png in Resources */,
 				B0FEE74F1DC9BC1900F518C4 /* 3.png in Resources */,
+				B0FEE7551DC9C5F700F518C4 /* index.gif in Resources */,
 				B0FEE7221DC9B6DD00F518C4 /* Assets.xcassets in Resources */,
 				B0FEE7201DC9B6DD00F518C4 /* Main.storyboard in Resources */,
 			);
@@ -452,7 +457,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N7N7WZT8J;
 				INFOPLIST_FILE = WelcomePage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.roycms.WelcomePage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,7 +470,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N7N7WZT8J;
 				INFOPLIST_FILE = WelcomePage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.roycms.WelcomePage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
